@@ -21,7 +21,7 @@ int main() {
         cin >> n_productos;
 
         for(int i = 1; i <= n_productos; i++) {
-            system("cls");
+            //system("cls");
             cout << "Ingrese el nombre del producto " << i << ": ";
             cin >> nombre_producto;
             cout << "Ingrese el codigo del producto " << i << ": ";
@@ -53,13 +53,13 @@ int main() {
             }
 
         }
-        system("cls")
+        //system("cls");
         cout << "Resumen de inventario: " << endl;
         cout << "El total de productos ingresados es de: " << n_productos << " productos." << endl;
         cout << "El producto mas caro tiene un precio de :" << mayor_precio_productos << " Bs" << endl;
         cout << "El producto mas economico tiene un precio de :" << menor_precio_productos << " Bs" << endl;
         cout << "El producto con mas cantidad es de :" << mayor_cantida_productos << " Unidades" << endl;
-        cout << "El producto con menos cantidad es de :" << menor_precio_productos << " Unidades" << endl;
+        cout << "El producto con menos cantidad es de :" << menor_cantida_productos << " Unidades" << endl;
 
         cout << "Desea reiniciar el proceso? 1=si; 0=no";
         cin >> reiniciar;        
